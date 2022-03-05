@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>remove vk.com/away</title>
+    <meta charset="UTF-8">
+    <meta name="author"
+          content="slavaitru@gmail.com">
+    <meta name="keywords"
+          content="vk.com, vk, away, убрать, редирект, вк, переадресация">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Online tool to replace vk.com/away.php redirection
+                    with an actual link">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js_script.js" defer></script>
+    <link rel="icon" href="var_logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <!------------ image -------->
+        <div class="image"><img
+            width="300"
+            height="26"
+            align="center"
+            src="main_logo.png"
+            alt="A crossed out image of a text of vk.com/away.php?to=">
+        </div>
+        <!------------ language -------->
+        <div class="ll">
+            <a href="index.html"><img src="flags/gb.png" alt="eng"></a>
+            <a href="rus.html"><img src="flags/ru.png" alt="rus"></a>
+        <!--I tried to make a dropdown menu with links here, but I failed. Mb some other day-->
+<!--            <select name="list" id="list">-->
+<!--              <option value="index.html" selected>eng</option> &lt;!&ndash;gb&ndash;&gt;-->
+<!--              <option value="test.html">rus</option> &lt;!&ndash;ru&ndash;&gt;-->
+<!--            </select>-->
+        </div>
+
+        <!------------ redirection -------->
+        <h1>убрать перенаправление vk.com/away</h1>
+        <label>Введите URL с vk.com/away:</label>
+        <br><br>
+            <input type="text" id="vk_URL"
+                   placeholder="vk.com/away.php?to=..."
+                   class="input">
+        <br><br>
+        <button type="button" onclick="getVal()" id="transformButton">Получить нормальный URL</button>
+        <br><br>
+        <input type="url" id="normal_URL" class="output">
+        <!------------ footer ----------->
+        <div class="footer">
+            <footer>
+            <hr style="height:1px;border-width:0;color:gray;background-color:gray">
+            <a href="mailto:slavaitru@gmail.com>"<p>slavaitru@gmail.com</p></a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

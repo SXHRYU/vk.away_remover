@@ -77,5 +77,5 @@ app.exec()
 window.create()
 
 # testing string
-# https://gist.github.com/shahwan42/279f6ec17dfc91ec9c6f778ae2877b2d
 # https://vk.com/away.php?to=https%3A%2F%2Fgist.github.com%2Fshahwan42%2F279f6ec17dfc91ec9c6f778ae2877b2d
+# https://gist.github.com/shahwan42/279f6ec17dfc91ec9c6f778ae2877b2d
